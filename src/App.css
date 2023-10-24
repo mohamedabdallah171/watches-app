@@ -1,38 +1,336 @@
-.App {
+/* NavBar */
+.fnav{
+  box-shadow: 0px 0px 20px black ;
+
+}
+
+/* end nav*/
+/* Fist section */ 
+.fh{
+  color: navy;
+  font-size: 60px;
+
+}
+.fcol{
+  margin: auto;
+  width: 570px;
+}
+.fimg{
+  width: 300px;
+  height: 700px;
+}
+.fp{
+  color: black;
+  margin-top: 20px;
+}
+.fbu{
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  background: rgb(74,74,75);
+  color: rgb(255,255,255);
+  text-transform: uppercase;
+  border: none;
+  width: 130px;
+  margin-top: 20px;
+margin-bottom: 30px;
+letter-spacing: 1px;
+}
+.fbu{
+  background: linear-gradient(to left , #4a4a4b , #4a4a4b) no-repeat;
+  background-size: 0%;
+  background-color: #ff2020;
+  border: none;
+  transition: all 0.5s ease;
+}
+.fbu:hover{
+  background-size: 100%;
+}
+/* end first section */
+/* second section */
+.sh{
+  color: black;
+  text-align: start;
+  color: #000;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+.dis{
+  margin-top: 50px;
+}
+.con{
+  background-color: rgb(240,240,242);
+}
+.imgzom{
+  transition: transform 0.7s ease;
+  width: 100%;
+}
+.imgzom:hover{
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+.hh{
+  text-align: center;
+  color: black;
+}
+.price{
+  color: #ff2020;
+  font-size: 18px;
+  text-align: center; 
+}
+/* end second section */ 
+/* Gallery section */
+.singall{
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.bigimg{
+  height: 690px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1.06);
+  transition: all 0.5s ease;
+  margin: 20px;
+}
+.smallimg{
+  height: 330px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1.06);
+  transition: all 0.5s ease;
+  margin: 20px;
+  
+}
+.bigimg:hover{
+  filter: brightness(0.6);
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+.smallimg:hover{
+  filter: brightness(0.6);
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+/* end gallery section */
+/*start popular section */
+.poph{
+  color: #000;
+  font-size: 48px;
+  font-family: 700;
+  line-height: 1;
+  margin-bottom: 17px;
+  padding-top: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+.popp{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #777;
+  font-size: 16px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.poprow{
+  text-align: center;
+}
+.popimg{
+  width: 100%;
+}
+.populrItems .box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.populrItems .box {
+  position: relative;
+  border-bottom: 3px solid #f81f1f;
+}
+.popicon {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 30px;
+}
+
+.popNav {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff2020;
+  padding: 20px;
+}
+.popNav {
+  opacity: 0;
+  transition: all .5s ease;
+
+}
+
+.popicon {
+  opacity: 0;
+  transition: all .5s ease;
+
+}
+
+.populrItems .watch:hover .popicon {
+  opacity: 1;
+  transition: all .5s ease;
+}
+
+.populrItems .watch:hover .popNav {
+  opacity: 1;
+  transition: all .5s ease;
+  padding-bottom: 20px;
+}
+.popname{
+  text-align: center;
+  padding-top: 20px;
+  color: #444444;
+
+}
+.populrItems .watch{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.populrItems .watch .text {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.populrItems .watch .text .popname{
+  padding-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.populrItems .watch .text .poppar {
+  color: #444444;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 0 20px 0;
 }
+/* end popular section */
+/* start choose section */
+.chrow{
+  margin-top: 100px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+} 
+.chh{
+  color: #000;
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 40px;
+  font-family: "Josefin Sans",sans-serif;
+}
+.chp{
+  color: #777;
+  margin-bottom: 50px;
+  font-size: 17px;
+  font-family: "Roboto",sans-serif;
+  font-weight: normal;
+}
+.margin{
+  margin: auto;
+
+}
+.width{
+  width: 100%;
+}
+/* end choose section */
+/* start service section */
+.icon{
+  font-size: 40px;
+  color: #ffff;
+  margin: 25px 0px;
+}
+.servh{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 12px;
+  font-family: "Roboto",sans-serif;
+}
+.servp{
+  font-size: 16px;
+  color: #d3d1d1;
+  font-family: "Roboto",sans-serif;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+.servrow{
+  background-color: #ea0000;
+  padding: 10px 30px 0px 30px;
+  margin-top: 100px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+}
+.servsec{
+  padding-bottom: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.icon1{
+  font-size: 62px;
+  color: #ffff;
+  margin: 25px 0px;
 }
+/* end service section */
+/* start footer */
+.footerp{
+  margin-top: 50px;
+  color: #777;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.footerlinks{
+  color: #868c98;
+  font-size: 16px;
+  margin-top: 50px;
+  line-height: 1.8;
+}
+.footerlinks{
+  color: #868c98;
+  font-weight: 300;
+  text-decoration: none;
+  font-family: "Roboto",sans-serif;
+}
+.footerlinks:hover{
+  color: #ff2020;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+.footerh{
+  color: #000;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: "Roboto",sans-serif;
+}
+.footerp2{
+  color: #888888;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2;
+  font-family: "Roboto",sans-serif;
+}
+.footerspan{
+  color: #ff2020;
+  font-weight: bold;
+}
+.footericon{
+  margin: 0px 20px;
+  transition: transform 0.7s ease-in-out;
+  font-size: 25px;
+}
+.footericon:hover{
+  color: #ff2020;
+  cursor: pointer;
+  transform: rotateY(180deg);
 }
